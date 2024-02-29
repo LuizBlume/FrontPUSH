@@ -1,0 +1,60 @@
+@import "_colors.scss";
+@import '_shadows.scss';
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: $black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1 {
+    color: $white;
+    span {
+        color: $green;
+    }
+}
+.link {
+    display: inline-block;
+    color: $black;
+    text-decoration: none;
+    background-color: $lightgray;
+    padding: 16px 124px;
+    margin-top: 24px;
+    border-radius: 8px;
+    transition: .5s ease;
+    &:hover {
+        box-shadow: $box-shadow-red;
+    }
+}
+.list {
+    margin-top: 16px;
+    padding: 16px;
+    border: 1px solid $red;
+    li {
+        list-style: none;
+        padding: 8px;
+        border: 1px solid $blue;
+        a {
+            color: $white;
+            text-decoration: none;
+            &:hover {
+                color: $green;
+            }
+        }
+    }
+}
+p {
+    color: $gray;
+    border: {
+        style: solid;
+        color: $purple;
+        width: 1px;
+    }
+}
