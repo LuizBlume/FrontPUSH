@@ -1,3 +1,55 @@
+.grid-1 {
+  width: 96px;
+}
+
+.grid-2 {
+  width: 192px;
+}
+
+.grid-3 {
+  width: 288px;
+}
+
+.grid-4 {
+  width: 384px;
+}
+
+.grid-5 {
+  width: 480px;
+}
+
+.grid-6 {
+  width: 576px;
+}
+
+.grid-7 {
+  width: 672px;
+}
+
+.grid-8 {
+  width: 768px;
+}
+
+.grid-9 {
+  width: 864px;
+}
+
+.grid-10 {
+  width: 960px;
+}
+
+.grid-11 {
+  width: 1056px;
+}
+
+.grid-12 {
+  width: 1152px;
+}
+
+div {
+  width: 41.6666666667%;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -16,6 +68,16 @@ body {
 
 h1 {
   color: #fff;
+  font-size: 72px;
+  font-variant: small-caps;
+  text-transform: uppercase;
+  font-variant: small-caps;
+  font-size: 24px;
+}
+@media screen and (max-width: 420px) {
+  h1 {
+    font-size: 24px;
+  }
 }
 h1 span {
   color: #00ff00;
@@ -35,27 +97,15 @@ h1 span {
   box-shadow: 0px 0px 10px 0px rgba(255, 0, 0, 0.75);
 }
 
-.list {
-  margin-top: 16px;
-  padding: 16px;
-  border: 1px solid #ff0000;
-}
-.list li {
-  list-style: none;
-  padding: 8px;
-  border: 1px solid #0000ff;
-}
-.list li a {
-  color: #fff;
-  text-decoration: none;
-}
-.list li a:hover {
-  color: #00ff00;
-}
-
 p {
-  color: #696969;
-  border-style: solid;
-  border-color: #7f00ff;
-  border-width: 1px;
+  color: #fff;
+  font-size: 24px;
+  font-variant: small-caps;
+  text-transform: uppercase;
+}
+@media screen and (max-width: 420px) {
+  p {
+    font-size: 14px;
+    color: #fff;
+  }
 }/*# sourceMappingURL=style.css.map */
