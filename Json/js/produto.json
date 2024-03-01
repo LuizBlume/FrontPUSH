@@ -1,0 +1,25 @@
+[
+    {
+        "id": 1,
+        "name": "Notebook Dell",
+        "modelo": "Gamer",
+        "quantidade": 5
+    },
+    {
+        "id": 2,
+        "name": "Notebook Acer",
+        "modelo": "Gamer",
+        "quantidade": 10,
+        "usb-c": false,
+        "fabricante": {
+            "cidade": "São Paulo",
+            "estado": "SP",
+            "pais": "Brasil"
+        },
+        "fabricante2": {
+            "cidade": "Brasília",
+            "estado": "DF",
+            "pais": "Brasil"
+        }
+    }
+]
