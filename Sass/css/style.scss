@@ -3,7 +3,7 @@
 $layout: dark;
 $bg-color: $white;
 $text-color: $black;
-@if $layout ==light {
+@if $layout == light {
     $bg-color: $white;
     $text-color: $black;
 }
