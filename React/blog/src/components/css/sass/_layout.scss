@@ -15,10 +15,6 @@ a {
     justify-content: space-between;
     align-items: center;
 }
-.container {
-    max-width: 1200px;
-    margin: 0 auto;
-}
 .menu {
     list-style: none;
     display: flex;
@@ -46,7 +42,7 @@ a {
     letter-spacing: .6px;
 }
 .container {
-    max-width: 1200px;
+    max-width: 100%;
     margin: 0 auto;
     padding: 8px 24px;
 }
