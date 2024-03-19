@@ -665,7 +665,6 @@ body {
 header {
   max-width: 100%;
   margin: 0 auto;
-  border: 1px solid red;
   padding: 8px 24px;
 }
 
@@ -715,4 +714,22 @@ a {
   color: #FAFCFC;
   padding: 4px;
   min-width: 300px;
+  letter-spacing: 0.6px;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 8px 24px;
+}
+
+.img-profile {
+  width: 56px;
+  height: 56px;
+  background-color: #4E4E50;
+  border-radius: 50%;
+}
+
+.container-posts {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

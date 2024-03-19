@@ -1,10 +1,14 @@
 import Post from '../Posts';
 const Article = () => {
     return (
-        <>
-            <h2>Artigo</h2>
-            <Post />
-        </>
+        <section className="container">
+            <h3>Articles</h3>
+            <div className="mt-3 container-posts">
+                <Post />
+                <Post />
+                <Post />
+            </div>
+        </section>
     );
 }
 export default Article;
