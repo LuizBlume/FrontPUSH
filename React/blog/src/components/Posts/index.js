@@ -4,8 +4,7 @@ const Post = (props) => {
       <div className="img-post"></div>
       <h5>{props.subtitle}</h5>
       <h3>{props.title}</h3>
-      <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo incidunt adipisci sapiente odit debitis quisquam suscipit, iusto ipsum quasi, numquam reprehenderit nostrum soluta iste in eum facilis impedit nihil corrupti.
-      </p>
+      <p>{props.children}</p>
       <div className="flex pt-2">
         <div className="img-profile"></div>
         <div className="desc-profile mt-1 ml-2">
