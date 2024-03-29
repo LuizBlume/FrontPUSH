@@ -1,31 +1,40 @@
 {
-    "posts": [
-      {
-        "id": 1,
-        "category": "Tecnologia",
-        "title": "O guia definitivo sobre o blog",
-        "resume": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque.",
-        "author": "Fulano de tal",
-        "date": "Aug 2, 2020"
-      },
-      {
-        "id": 2,
-        "category": "Fotografia",
-        "title": "Quais as melhores câmeras em 2021?",
-        "resume": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque.",
-        "author": "Ciclano de tal",
-        "date": "Aug 4, 2020"
-      },
-      {
-        "id": 4,
-        "category": "Cinema",
-        "title": "Os 10 filmes com maior bilheteria.",
-        "resume": "Lorem ipsum",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque.",
-        "author": "Beltrano de tal",
-        "date": "Aug 6, 2020"
-      }
-    ]
-  }
+  "posts": [
+    {
+      "id": "1",
+      "category": "Tecnologia",
+      "title": "O guia definitivo sobre o blog",
+      "resume": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque.",
+      "author": "Fulano de tal",
+      "date": "Aug 2, 2020"
+    },
+    {
+      "id": "2",
+      "category": "Fotografia",
+      "title": "Quais as melhores câmeras em 2021?",
+      "resume": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque.",
+      "author": "Ciclano de tal",
+      "date": "Aug 4, 2020"
+    },
+    {
+      "id": "3",
+      "category": "Cinema",
+      "title": "Os 10 filmes com maior bilheteria.",
+      "resume": "Lorem ipsum",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ornare urna pharetra ut ac, pellentesque.",
+      "author": "Beltrano de tal",
+      "date": "Aug 6, 2020"
+    },
+    {
+      "id": "4",
+      "category": "Hardware",
+      "title": "Os 10 piores hardwares de 2024.",
+      "resume": "RTX 1060",
+      "description": "sasadsdadaXDWDFDd.",
+      "author": "Ganso de tal",
+      "date": "Mar 28, 2024"
+    }
+  ]
+}
