@@ -1,5 +1,5 @@
 import Header from './components/Header';
-import Article from './components/Article';
+import Main from './pages/Main/index';
 import {useState} from 'react';
 function App() {
   let [carrinho, setCarrinho] = useState(0);
@@ -16,7 +16,7 @@ function App() {
   return (
     <>
       <Header />
-      <Article />
+      <Main />
       <h1>Carrinho de compras: {carrinho}</h1>
       <div className="flex">
         <button className="ml-2 add-button" onClick={add}>+</button>
