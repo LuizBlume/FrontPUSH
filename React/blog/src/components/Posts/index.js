@@ -9,7 +9,7 @@ const Post = (props) => {
         <div className="img-profile"></div>
         <div className="desc-profile mt-1 ml-2">
           <h6 className="color-blue">Fulano de tal</h6>
-          <p>Mar 18, 2024 - 10h read</p>
+          <p>Mar 18, 2024 - 8min read</p>
         </div>
       </div>
     </div>
