@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #050505;
+  color: #fff;
+}
+button {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  display: block;
+}
+input {
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 5px;
+  color: #333;
+}
+li {
+  list-style: none;
+  font-size: 18px;
+  padding: 10px 20px;
+  margin: 10px;
+  border-radius: 5px;
+  background-color: #333;
+}
+ul {
+  display: flex;
+  flex-direction: column;
+}
